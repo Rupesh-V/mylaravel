@@ -1,0 +1,1416 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+/*Navbar styling*/
+.navbar{
+    background-color:  #FFF6FB;
+    height: 103px;
+}
+
+
+.togglebtn{
+    color:black
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 17px!important;
+    color: black!important;
+    
+}
+.nav-link:hover{
+  color: #393FCF!important;
+}
+body{
+  overflow-x: hidden;
+}
+#loginbtn{
+  background-color: white;
+  padding: 8px 35px 8px 35px;
+}#signbtn {
+  background-color: #393fcf;
+  color: white;
+  padding: 8px 35px 8px 35px;
+}
+ul {
+  /* float:right; */
+  text-align: center;
+}
+.navbar-nav > li {
+  padding-right: 40px;
+  font-weight: 500;
+  
+
+}
+.nav-item{
+  color: black!important;
+}
+
+
+/* signupform */
+.signupform {
+  width: 400px !important;
+}
+#modalbtn1,
+#modalbtn2 {
+    width: 100%;
+    background-color: #393FCF;
+    color: white;
+}
+#registerName::-webkit-input-placeholder,
+#registerEmail::-webkit-input-placeholder,
+#zipCode::-webkit-input-placeholder {
+    color: #1b1a59;
+    font-weight: 500;
+    font-size: small;
+}
+/* second module styling*/
+.s1txt {
+  padding-top: 150px;
+}
+#s1txt {
+  font-weight: 600;
+  line-height: 67px;
+  font-size: 45px;
+}
+.redtext {
+  color: #f25471;
+}
+#s1btn {
+  background-color: #393fcf;
+  color: white;
+  padding: 17px 35px 17px 35px;
+  font-size: 18px;
+  font-weight: 600;
+}
+#s1card1 {
+  top: 65px;
+  left: 180px;
+  margin-top: 3px;
+  margin-bottom: 0rem;
+  padding-top: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 0px;
+}
+.cardtext {
+  padding-top: 3px;
+  margin-bottom: 0rem;
+  color: black;
+}
+#s1card2 {
+  top: 100px;
+  left: 50px;
+  margin-top: 3px;
+  padding-top: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 0px;
+}
+#s1card3 {
+  top: 150px;
+  left: -50px;
+  margin-top: 3px;
+  padding-top: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 0px;
+}
+#s1card4 {
+  top: 190px;
+  left: 15px;
+  margin-top: 3px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 3px;
+  padding-bottom: 0px;
+  max-width: 270px;
+  border-radius: 15px;
+}
+.ok {
+  right: 60px;
+}
+.hexa{
+  background-color: #FFF6FB; 
+  padding-top: 70px;
+  overflow: hidden;
+  
+} 
+.hcards{
+  padding-top: 35px;   
+  padding-left: 96px;
+
+}
+h3{
+  color: #393FCF;   
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 75px;
+  padding-bottom: 15px;
+}
+.optimized{
+  font-family: Poppins;
+  font-size: 23px;
+  font-weight: 450;
+  line-height: 40px;
+  
+  text-align: left;
+  color: #5C5D7A;
+  }
+  .mc{
+    font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 550;
+line-height: 43px;
+letter-spacing: 0.02em;
+text-align: center;
+background-color:rgba(255, 255, 255, 0.8);
+
+}
+.cu{
+    font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 550;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+background-color:  #393FCF;
+
+}
+#mdoctor {
+  width: 550px;
+  height: 800px;
+  position: relative;
+  right: 33%;
+}
+span{
+  color: #f25471;
+}
+/* stickybuttons */
+.dropdown button {
+  
+  border-width: 2px;
+  border-color: white;
+  
+bottom: 45%;
+  margin: none;
+  position: fixed;
+  right: 5px;
+  z-index: 1000;
+  transition: width 2s;
+  transform: rotate(0deg);
+  padding: 20px 23px 40px;
+  height: 0px;
+
+  
+  color: white;
+}
+
+#dropdown-menu {
+  min-width: 283px;
+}
+.dropdown button span {
+  display: none;
+}
+.dropdown button:hover span {
+  display: block;
+  color: white;
+  width: 230px;
+}
+.dropdown button.show span {
+  display: block;
+  color: white;
+  width: 230px;
+}
+.book {
+  color: white;
+  display: inline-block;
+  float: left;
+}
+#stickybtn {
+  background-color: #393fcf;
+  transition-timing-function: ease;
+}
+
+.questionnaire button {
+  border-width: 2px;
+  border-color: white;
+ 
+  bottom: 55%;
+  margin: none;
+  position: fixed;
+  right: 5px;
+  z-index: 1000;
+  
+  transform: rotate(0deg);
+  padding: 20px 23px 40px;
+  height: 0px;
+  
+}
+.questionnaire button span {
+  display: none;
+}
+.questionnaire button:hover span {
+  display: block;
+  color: white;
+  width: 300px;
+}
+#stickyq {
+  background-color: #393fcf;
+  transition-timing-function: ease;
+}
+
+/*How otm works module styling*/
+.howotm{
+  
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+h1{
+
+font-weight: 500;
+font-size: 40px;
+color: #393FCF;
+
+}
+.para{
+
+text-align: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+color: #5C5D7A;
+width: 85%;
+height: 70%;
+
+line-height: 35px;
+
+}
+.readmor{
+    color: #5C5D7A;
+}
+/*youbutton image*/
+.image1{   
+    background-color: white;
+    display: flex;
+    
+    /* position: relative;
+    left: 10%; */
+    
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+    
+}
+/*Otm scientific approach module*/
+h2{
+    color: blue; 
+    font-family: Poppins;
+font-size: 40px;
+font-weight: 550;
+line-height:75px;
+
+/* position: relative; */
+/* left: 22%; */
+
+}
+.readcon{
+    color: blue;
+    text-decoration: none;
+}
+.readcont{
+  color: blue;
+  
+}
+.cont{
+    /* display: block; */
+font-family: Poppins;
+font-size: 20px;
+font-weight: 450;
+line-height: 35px;
+color: #5C5D7A;
+/* position: relative;
+ right:8%; 
+left: 23.5%; */
+}
+.square1 {
+  position: absolute;
+  width: 120px !important;
+  height: 120px;
+  left: -4px;
+  top: -16px;
+  background: #41be90;
+  border-radius: 15px;
+}
+.square2 {
+  background: #23bdee;
+  position: absolute;
+  width: 160px !important;
+  height: 160px;
+  left: 470px;
+  top: 257px;
+  border-radius: 15px;
+}
+.scientific{
+  padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 140px;
+    padding-right: 130px;
+    background-color: #f6f0f0;
+}
+
+
+
+/* three blank images module */
+h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 46px;
+  
+  color: #393FCF;
+  padding-bottom: 150px;
+  
+  }
+h6{
+text-align: center;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 0em;
+color: #090A28;
+}
+.card1{
+    width: 370px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+    flex: none;
+    order: 18;
+    flex-grow: 0;
+    }
+    .card2{
+    width: 370px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+    flex: none;
+    order: 18;
+    flex-grow: 0;
+    
+    }
+    .blank{
+      
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 280px;
+        padding-right: 110px;
+        text-align: center;
+    }
+.otmform{
+  width:500px ;
+  font-size:20px;
+  
+} 
+.ot{
+  font-size: 24px;
+  color: black!important;
+}
+
+
+/*lastcard module*/
+
+.cardmatter{
+    
+    color: white;
+    font-family: 'Poppins';
+    font-family:400;
+    
+    font-size: 20px;
+    /* padding-bottom: 150px;
+    padding-right: 5%; */
+    line-height: 175%;
+
+
+}
+h7{
+    
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+.cad{
+  margin-top: 90px;
+}
+/*last footer*/
+.last{
+    font-family: Poppins;
+font-size: 48px;
+font-weight: 500;
+line-height: 86px;
+letter-spacing: 0em;
+
+color: blue;
+}
+.collab{
+  padding-top: 150px;
+    padding-bottom: 120px;
+    
+    text-align: center;
+}
+/* contactus */
+
+.contact {
+  background-color: white;
+  padding-top: 300px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.contacthead {
+  padding-bottom: 20px;
+  line-height: 35px;
+  color: #fcfcfc;
+  text-align: center;
+}
+#sectionconEmail,
+#sectionconPassword {
+    color: #fcfcfc!important;
+    background-color: transparent;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 40px;
+}
+.sectioncontimg {
+  border-radius: 10px 0px 0px 10px;
+  width: 110%;
+  height: 454px;
+}
+.contactsignup {
+  background-image: linear-gradient(to bottom right, #383ad3, #7375d8);
+  /* background-color: #383ad3; */
+  padding-top: 85px;
+  padding-bottom: 85px;
+  padding-right: 85px;
+  padding-left: 85px;
+  border-radius: 0px 10px 10px 0px;
+}
+#concomment {
+  color: #fcfcfc!important;
+  background-color: transparent;
+  margin-bottom: 25px;
+  width: 100%;
+}
+#contbutton {
+  width: 100%;
+}
+#sectionconEmail::-webkit-input-placeholder,
+#concomment::-webkit-input-placeholder{
+    color: #fcfcfc;
+    font-weight: 400;
+    font-size: small;
+}
+/* bottom to top */
+#btn-back-to-top {
+  background-color: #f25471;
+  border-width: 2px;
+  border-color: white;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+  min-width: 25px;
+  color: white;
+}
+/*Ended styling*/
+
+ /* Responsive design                 */
+
+
+ @media   screen  and (max-width:768px) {
+  .navbar{
+    width: 760px;  
+  }
+  .brand{
+    position: relative;
+    left: -550%;
+    }
+  .navbar-collapse{
+    background-color:#FFF6FB ;
+  }
+ .navbar-toggler{
+    margin-left: 20px;
+  }
+  .o{
+    display: none;
+  }
+  .s1txt {
+  padding-top: 50px;
+}
+  #s1card1,
+    #s1card4,
+    #s1card2,
+    #s1card3 {
+        opacity: 0.8;
+    }
+    .s1 {
+        padding-top: 10px;
+        padding-bottom: 130px;
+    }
+    #mdoctor {
+        /* visibility: hidden; */
+        width: 130%;
+        height: 110%;
+    }
+    .howotm{
+  
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: justify;
+    
+}
+h1{
+
+font-weight: 500;
+font-size: 30px;
+color: #393FCF;
+
+}
+.para{
+
+text-align: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 410;
+font-size: 19px;
+color: #5C5D7A;
+width: 85%;
+height: 70%;
+
+line-height: 35px;
+
+}
+h2{
+  color: blue; 
+  font-family: Poppins;
+font-size: 30px;
+font-weight: 500;
+line-height:75px;
+text-align: center;
+}
+.scientific{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+
+  text-align: justify;
+}
+.square2 {
+  background: #23bdee;
+  position: absolute;
+  width: 140px !important;
+  height: 145px;
+  left: 470px;
+  top: 257px;
+  border-radius: 15px;
+}
+.blank{
+      
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 120px;
+  padding-right: 110px;
+  text-align: center;
+}
+.card2{
+  width: 400px;
+  height: 330px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+  border-radius: 20px;
+  flex: none;
+  order: 18;
+  flex-grow: 0;
+  margin-left: 30px;
+  margin-top: 70px;
+  
+  }
+  #modern_medicine {
+    padding-top: 40px;
+    padding-left: 0px;
+    text-align: justify;
+}
+.mmtxth {
+    text-align: center;
+}
+.mmtxt {
+    padding-left: 10px;
+}
+.last{
+  font-family: Poppins;
+font-size: 35px;
+font-weight: 500;
+line-height: 86px;
+letter-spacing: 0em;
+
+color: blue;
+}
+.collab{
+padding-top: 50px;
+
+  
+text-align: center;
+}
+.contact {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  padding-left: 70px;
+  padding-right: 150px;
+}
+.sectioncontimg {
+  border-radius: 10px 0px 0px 10px;
+  width: 110%;
+  height: 454px;
+}
+.contactsignup {
+  background-image: linear-gradient(to bottom right, #383ad3, #7375d8);
+  
+  padding-top: 85px;
+  padding-bottom: 85px;
+  padding-right: 85px;
+  padding-left: 85px;
+  border-radius: 0px 10px 10px 0px;
+  width: 110%;
+  height: 454px;
+}
+.contacthead {
+  padding-bottom: 20px;
+  line-height: 35px;
+  color: #fcfcfc;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+
+}
+}
+@media screen and (max-width:429px){
+  body,
+  html {
+      overflow-x: hidden;
+  }
+  .brand{
+    position: relative;
+    left: -850%;
+    }
+    .navbar-collapse{
+      background-color:#FFF6FB ;
+      
+    }
+    .navbar-nav {
+      padding: 0px !important;
+      margin-left: 20px!important;
+      padding-right: 0px !important;
+    }
+    ul{
+      text-align: left !important;
+    }
+    .signupform {
+      width: 250px !important;
+      margin-left: 50px!important;
+    }
+  #home{
+    max-width: fit-content;
+  }
+  .s1cards{
+    display: none;
+  }
+  #mdoctor{
+    display: none;
+  }
+  
+  .hcards{
+    padding-top: 25px;   
+    padding-left: 20px;
+  
+  }
+  h3{
+    color: #393FCF;   
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 75px;
+    padding-bottom: 15px;
+  }
+  .optimized{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 40px;
+    
+    text-align: left;
+    color: #5C5D7A;
+    }
+    .hexa{
+      padding-bottom: 100px;
+      
+    } 
+    .howotm{
+  
+      padding-top: 0px;
+      padding-bottom: 20px;
+      
+  }
+  .para{
+
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 410;
+    font-size: 19px;
+    color: #5C5D7A;
+    width: 85%;
+    height: 70%;
+    
+    line-height: 35px;
+    
+    }
+    .image1{   
+      background-color: white;
+      display: flex;
+      position: relative;
+      left: -3%;
+      padding-bottom: 50px;
+  
+      
+  }
+  .scientific{
+    padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 20px;
+      padding-right: 30px;
+      background-color: #f6f0f0;
+  }
+  h2{
+    color: blue; 
+    font-family: Poppins;
+font-size: 30px;
+font-weight: 500;
+line-height:45px;
+text-align: center;
+}
+.cont{
+  /* display: block; */
+font-family: Poppins;
+font-size: 17px;
+font-weight: 500;
+line-height: 30px;
+color: #5C5D7A;
+
+}
+.square2 {
+  background: #23bdee;
+  position: absolute;
+  width: 200px !important;
+  height: 90px;
+  left: 180px;
+  top: 157px;
+  border-radius: 15px;
+}
+h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: #393FCF;
+  padding-bottom: 50px;
+  
+  }
+  .blank{
+      
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .card1{
+    width: 330px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+    flex: none;
+    order: 18;
+    flex-grow: 0;
+    margin-left: 30px;
+    
+    }
+    .card2{
+    width: 330px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+    flex: none;
+    order: 18;
+    flex-grow: 0;
+    
+    
+    
+    }
+    h6{
+      text-align: center;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 35px;
+      letter-spacing: 0em;
+      color: #090A28;
+      }
+      
+      .modern_medicine {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: #ef6868;
+        background-image: linear-gradient(to right, #383ad3, #ee6767);
+      }
+      .collab{
+        padding-top: 150px;
+          padding-bottom: 0px;
+          
+          text-align: center;
+      }
+      .contact {
+        background-color: white;
+        padding-top: 300px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 30px;
+        margin-right: 30px;
+      }
+      .sectioncontimg {
+        border-radius: 10px 0px 0px 10px;
+        width: 110%;
+        height: 354px;
+      }
+      .contactsignup {
+        background-image: linear-gradient(to bottom right, #383ad3, #7375d8);
+       
+        padding-top: 45px;
+        padding-bottom: none;
+        padding-right: 45px;
+        padding-left: 45px;
+        border-radius: 0px 10px 10px 0px;
+        
+        
+      }
+      .questionnaire button {
+        border-width: 2px;
+        border-color: white;
+       
+        bottom: 58%;
+        
+        position: fixed;
+        right: 5px;
+        z-index: 1000;
+        margin-top: 30px;
+        transform: rotate(0deg);
+        padding: 20px 23px 40px;
+        height: 0px;
+        
+      }
+}
+@media screen and (max-width:480px){
+  body,
+  html {
+      overflow-x: hidden;
+  }
+  .brand{
+    position: relative;
+    left: -850%;
+    }
+    .navbar-nav {
+      padding: 0px !important;
+      margin-left: 20px!important;
+      padding-right: 0px !important;
+    }
+    ul{
+      text-align: left !important;
+    }
+    .signupform {
+      width: 300px !important;
+      margin-left: 80px;
+      margin-top: -5%;
+    }
+  #home{
+    max-width: fit-content;
+  }
+  .s1cards{
+    display: none;
+  }
+  #mdoctor{
+    display: none;
+  }
+  
+  .hcards{
+    padding-top: 25px;   
+    padding-left: 20px;
+  
+  }
+  h3{
+    color: #393FCF;   
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 75px;
+    padding-bottom: 15px;
+  }
+  .optimized{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 40px;
+    
+    text-align: left;
+    color: #5C5D7A;
+    }
+    .hexa{
+      padding-bottom: 100px;
+      
+    } 
+    .howotm{
+  
+      padding-top: 0px;
+      padding-bottom: 20px;
+      
+  }
+  .para{
+
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 410;
+    font-size: 19px;
+    color: #5C5D7A;
+    width: 85%;
+    height: 70%;
+    
+    line-height: 35px;
+    
+    }
+    .image1{   
+      background-color: white;
+      display: flex;
+      position: relative;
+      left: -3%;
+      padding-bottom: 50px;
+  
+      
+  }
+  .scientific{
+    padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 20px;
+      padding-right: 30px;
+      background-color: #f6f0f0;
+  }
+  h2{
+    color: blue; 
+    font-family: Poppins;
+font-size: 30px;
+font-weight: 500;
+line-height:45px;
+text-align: center;
+}
+.cont{
+  /* display: block; */
+font-family: Poppins;
+font-size: 17px;
+font-weight: 500;
+line-height: 30px;
+color: #5C5D7A;
+
+}
+.square2 {
+  background: #23bdee;
+  position: absolute;
+  width: 150px !important;
+  height: 100px;
+  left: 280px;
+  top: 190px;
+  border-radius: 15px;
+}
+h5{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: #393FCF;
+  padding-bottom: 50px;
+  
+  }
+  .blank{
+      
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .card1{
+    width: 330px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+    flex: none;
+    order: 18;
+    flex-grow: 0;
+    margin-left: 50px;
+    
+    }
+    .card2{
+    width: 330px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+    flex: none;
+    order: 18;
+    flex-grow: 0;
+    position: relative;
+    left: 4%;
+    
+    
+    }
+    h6{
+      text-align: center;
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 35px;
+      letter-spacing: 0em;
+      color: #090A28;
+      }
+      
+      .modern_medicine {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: #ef6868;
+        background-image: linear-gradient(to right, #383ad3, #ee6767);
+      }
+      .collab{
+        padding-top: 150px;
+          padding-bottom: 0px;
+          
+          text-align: center;
+      }
+      .contact {
+        background-color: white;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 30px;
+        margin-right: 30px;
+      }
+      .sectioncontimg {
+        border-radius: 10px 0px 0px 10px;
+        width: 110%;
+        height: 354px;
+      }
+      .contactsignup {
+        background-image: linear-gradient(to bottom right, #383ad3, #7375d8);
+       
+        padding-top: 45px;
+        padding-bottom: none;
+        padding-right: 45px;
+        padding-left: 45px;
+        border-radius: 0px 10px 10px 0px;
+        
+        
+      }
+      .questionnaire button {
+        border-width: 2px;
+        border-color: white;
+       
+        bottom: 58%;
+        
+        position: fixed;
+        right: 5px;
+        z-index: 1000;
+        margin-top: 30px;
+        transform: rotate(0deg);
+        padding: 20px 23px 40px;
+        height: 0px;
+        
+      }
+}
+@media screen and (max-width:393px){
+  .brand{
+    position: relative!important;
+    left: -200% !important; 
+    }
+    .navbar{
+      width: 390px!important;
+    }
+    .signupform {
+      width: 300px !important;
+      margin-left: 80px;
+      margin-top: -20%;
+    }
+    .para{
+
+      text-align: left!important;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 450;
+      font-size: 20px;
+      color: #5C5D7A;
+      width: 85%;
+      height: 70%;
+      
+      line-height: 35px;
+      
+      }
+      
+  .square2 {
+    left: 195px;
+    top: 130px;
+}
+.card1{
+  width: 330px;
+  height: 330px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+  border-radius: 20px;
+  flex: none;
+  order: 18;
+  flex-grow: 0;
+  margin-left: 10px;
+  
+  }
+  .card2{
+  width: 330px;
+  height: 330px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+  border-radius: 20px;
+  flex: none;
+  order: 18;
+  flex-grow: 0;
+  position: relative;
+  left: -5%;
+  }
+  #modalbtn1,
+#modalbtn2 {
+    width: 80%;
+    background-color: #393FCF;
+    color: white;
+    margin-left: 20px;
+}
+}
+@media   only screen  and (min-width:770px) and (max-width:820px) {
+  .navbar{
+    width: 820px;  
+  }
+  .brand{
+    position: relative;
+    left: -550%;
+    }
+  .navbar-collapse{
+    background-color:#FFF6FB ;
+  }
+ .navbar-toggler{
+    margin-left: 20px;
+  }
+  .o{
+    display: none;
+  }
+  .s1txt {
+  padding-top: 50px;
+}
+  #s1card1,
+    #s1card4,
+    #s1card2,
+    #s1card3 {
+        opacity: 0.8;
+    }
+    .s1 {
+        padding-top: 10px;
+        padding-bottom: 130px;
+    }
+    #mdoctor {
+        /* visibility: hidden; */
+        width: 130%;
+        height: 110%;
+    }
+    .howotm{
+  
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: justify;
+    
+}
+h1{
+
+font-weight: 500;
+font-size: 30px;
+color: #393FCF;
+
+}
+.para{
+
+text-align: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 410;
+font-size: 19px;
+color: #5C5D7A;
+width: 85%;
+height: 70%;
+
+line-height: 35px;
+
+}
+h2{
+  color: blue; 
+  font-family: Poppins;
+font-size: 30px;
+font-weight: 500;
+line-height:75px;
+text-align: center;
+}
+.scientific{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+
+  text-align: justify;
+}
+.square2 {
+  background: #23bdee;
+  position: absolute;
+  width: 140px !important;
+  height: 145px;
+  left: 470px;
+  top: 257px;
+  border-radius: 15px;
+}
+.blank{
+      
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 120px;
+  padding-right: 110px;
+  text-align: center;
+}
+.card1{
+  width: 400px;
+  height: 330px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+  border-radius: 20px;
+  flex: none;
+  order: 18;
+  flex-grow: 0;
+  margin-left: 50px;
+  }
+.card2{
+  width: 400px;
+  height: 330px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+  border-radius: 20px;
+  flex: none;
+  order: 18;
+  flex-grow: 0;
+  margin-left: 50px;
+  margin-top: 70px;
+  
+  }
+  #modern_medicine {
+    padding-top: 40px;
+    padding-left: 0px;
+    text-align: justify;
+}
+.mmtxth {
+    text-align: center;
+}
+.mmtxt {
+    padding-left: 10px;
+}
+.last{
+  font-family: Poppins;
+font-size: 35px;
+font-weight: 500;
+line-height: 86px;
+letter-spacing: 0em;
+
+color: blue;
+}
+.collab{
+padding-top: 50px;
+
+  
+text-align: center;
+}
+.contact {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  padding-left: 70px;
+  padding-right: 150px;
+}
+.sectioncontimg {
+  border-radius: 10px 0px 0px 10px;
+  width: 110%;
+  height: 454px;
+}
+.contactsignup {
+  background-image: linear-gradient(to bottom right, #383ad3, #7375d8);
+  
+  padding-top: 85px;
+  padding-bottom: 85px;
+  padding-right: 85px;
+  padding-left: 85px;
+  border-radius: 0px 10px 10px 0px;
+  width: 110%;
+  height: 554px;
+}
+.contacthead {
+  padding-bottom: 50px;
+  line-height: 35px;
+  color: #fcfcfc;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+
+}
+#sectionconEmail,
+#sectionconPassword {
+    color: #fcfcfc!important;
+    background-color: transparent;
+    margin-bottom: 55px;
+    width: 90%;
+    height: 40px;
+}
+#concomment {
+  color: #fcfcfc!important;
+  background-color: transparent;
+  margin-bottom: 55px;
+  width: 90%;
+}
+#contbutton {
+  width: 90%;
+}
+}

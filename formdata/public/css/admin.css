@@ -1,0 +1,136 @@
+
+body{
+  overflow-x: hidden;
+}
+.sidebar{
+    width: 20%;
+    background-color: slategrey;
+    height: 670px;
+    position:fixed;
+   
+}
+.topn{
+  padding-bottom: 105px;
+}
+.sh{
+    color: black;
+}
+.navv{
+    margin-left: 300px;
+    width: 75%;
+}
+.search{
+    width: 500px;
+}
+.add{
+    width: 100px;
+}
+.inp{
+  padding-left: 15%!important;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.tab{
+    padding-left: 50px;
+    padding-top: 30px;
+    border-collapse:separate;
+    border-spacing:0 15px;
+    margin-left: 300px;
+    width: 75%;
+   
+}
+/* table,td{border-collapse:collapse;
+    border-spacing: 30px;
+    
+}
+thead {
+    background-color:green;
+    Color:white;
+    text-align: center;
+}
+.tc{
+    background-color: bisque;
+    padding-bottom: 100px;
+}
+.t1{
+    width: 400px;
+    padding-right: 30px;
+    
+}
+.t2{
+    padding-right: 30px;
+   
+}
+.t3{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.tre{
+    text-align: center;
+  } */
+  table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+  }
+  th {
+    background-color: #4287f5;
+    color: white;
+    text-align: center;
+  }
+  
+  td {
+    width: 350px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 5px;
+  }
+  li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+  .logo{
+    position: relative;
+    left: 3%;
+  }
+  .search{
+    margin-left: 60px!important;
+    width: 300px;
+
+  }
+  .how{
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .sg{
+    width: 100px;
+    margin-left: 30px;
+  }
+  .sad{
+    padding-top: 20px;
+    
+    
+  }
+  .ad{
+    padding-top: 20px;
+    padding-left: 90px;
+    
+  }
+  .ed{
+    width: 70px;
+  }
+/* enquiries */
+.tabb{
+  padding-left: 50px;
+  padding-top: 50px;
+  border-collapse:separate;
+  border-spacing:0 15px;
+  margin-left: 300px;
+  width: 75%;
+}
+.page{
+  padding-top: 50px;
+}
